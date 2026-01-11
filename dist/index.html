@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TOTP Localhost</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        padding: 32px;
+      }
+      .otp {
+        font-size: 56px;
+        font-weight: bold;
+        letter-spacing: 6px;
+      }
+      .row {
+        margin-top: 12px;
+        font-size: 18px;
+      }
+    </style>
+    <script type="module" crossorigin src="/TOTP-Generator/assets/index-B8HVoPBT.js"></script>
+  </head>
+  <body>
+    <h1>TOTP Demo</h1>
+
+    <div class="row">OTP</div>
+    <div class="otp" id="otp">------</div>
+
+    <div class="row">Remaining (ms)</div>
+    <div class="row" id="remaining">-</div>
+
+  </body>
+</html>
